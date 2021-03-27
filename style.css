@@ -1,0 +1,64 @@
+body{
+  max-width: 560px;
+  margin: auto;
+  background-image: url("https://i.ibb.co/PZv7Kb1/img1.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: #28527A;
+}
+.content{
+  max-width: 500px;
+}
+h1{
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-style: italic;
+  font-size: 5vw;
+  font-weight:lighter;
+  text-align: center;
+  max-width: 600px;
+  margin-bottom:5px;
+}
+
+#hint {
+   margin: 0px;
+}
+.container {
+  width: 500px;
+  margin: 50px auto;
+  margin-bottom: 0px;
+  user-select: none;
+  overflow-x: hidden;
+  position: relative;
+  border: solid #28527A 2px;
+  background-color: #d0e8f2;
+  border-radius: 20px;
+}
+
+.keys{
+  display: grid;
+  grid-gap: 1px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  padding-top: 20px;
+}
+
+button {
+  background-color: #eff8ff;
+  border: solid #28527A 2px;
+  color: #28527A;
+  border-radius: 10px;
+  height: 60px;
+  font-size: 2rem;
+}
+
+button:hover {
+  background-color: #d0e8f2;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#result{
+  padding-left: 10px;
+  cursor: pointer;
+}
