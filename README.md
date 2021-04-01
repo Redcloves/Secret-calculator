@@ -2,6 +2,8 @@
 Astrazeneca Neurodiversity Hackathon 
 Challenge #2
 
+**Works with Chrome only**
+
 ### Inspiration
 
 I wasn’t aware that people with dyscalculia struggle with manipulating simple numbers mentally. Here's a solution for it :)
